@@ -9,7 +9,7 @@ import { Doctor, Appointment, Activity, Stats } from '../../interfaces/healthcar
   selector: 'app-dashboard',
   standalone: true,
   imports: [CommonModule, FormsModule, CardComponent],
-  template: `
+  template: ` 
     <div class="dashboard-page">
       <div class="container">
         <header class="dashboard-header">
